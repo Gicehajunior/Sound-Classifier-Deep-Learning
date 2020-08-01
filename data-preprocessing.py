@@ -25,7 +25,7 @@ validation_dataset_path = 'input/silero-audio-classifier/val'
 train_metadata_path = "input/silero-audio-classifier/train.csv"  
 test_metadata_path = "input/silero-audio-classifier/sample_submission.csv"
 
-output_dir = '../input/output/'
+output_dir = 'input/output/'
 pandas.set_option('display.max_colwidth', 500)
 
 def read_metadata(train_metadata_path, test_metadata_path):
